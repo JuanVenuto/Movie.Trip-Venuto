@@ -1,0 +1,513 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    background-image: linear-gradient(#044d5f,#246477);
+    font-family: 'Manjari', sans-serif;
+}
+/*HEADER*/
+header .titulo{
+    padding: 20px 0;
+    text-align: center;
+    font-size: 2.9em;
+    list-style-type: none;
+    text-shadow: 2px 1px 10px #1e272e;
+}
+.back-header{
+    background-image: linear-gradient(dodgerblue, #ddd);
+}
+.container{
+    display: grid;
+    gap: 1.9em; /*espacio entre los contenedores*/
+    grid-template-columns: repeat(6, 1fr);
+}
+.container header{
+    grid-column: span 6;
+    background-color: rgb(167, 205, 241);
+    color: #1e272e;
+    font-weight: 200;
+    list-style-type: none;
+}
+.back-header2{
+    background-image: linear-gradient(#ddd, dodgerblue);
+}
+.container header .restricciones{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.container header .item{
+    display: flex;
+    flex-direction: column;
+    line-height: 200%;
+}
+.container header input{
+    width: 8%;
+}
+.content h2 a:hover{
+    border-bottom: 2px #1e272e solid;
+    text-decoration: none;
+    list-style-type: none;
+}
+.secciones ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgb(158, 154, 154);
+    color: #1e272e;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+.secciones li a {
+    text-decoration: none;
+}
+.secciones li a:hover{
+    border-bottom: 2px #1e272e solid;
+}
+
+.secciones ul ul li{
+    background-color: rgb(158, 154, 154);
+}
+.container header ul ul {
+    display: none; 
+    position: absolute;  
+    font-weight: bolder; 
+}
+.container ul li:hover ul{
+    display: block;
+
+}
+.container .descubre{
+    grid-column: span 2 ;
+    color: #000000;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container .descubre .descubre2{
+    background-color: lightskyblue;
+    border: #1e272e solid;
+    line-height: 400%;
+    text-align: center;
+}
+.container .content{
+    grid-column: span 4; /*con span se dice cuantas columnas quiero que abarque el contenido*/
+}
+.container .sidebar{
+    grid-column: span 2;
+    color: #000000;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container .sidebar p{
+    text-align: center;
+    color: #1e272e;
+    font-size: 150%;
+    font-weight: 700;
+}
+.container .sidebar .dentro{
+    background-color: lightskyblue;
+    border: #1e272e solid;
+    transform: scale(1.2, 1.1);
+}
+.container .programa{
+    grid-column: span 4;
+    text-align: center;
+    margin-top: 5%;
+}
+.container .programa h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    font-size: 150%;
+}
+.container .programa h2 a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 80%;
+}
+.container .programa ul li{
+    list-style-type: none;
+    line-height: 400%;
+}
+.container .programa h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 180%;
+    list-style-type: none;
+    border: #1e272e solid;
+    background-image: url(https://img.freepik.com/vector-gratis/marco-neon-aire_52683-52636.jpg?size=626&ext=jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container .tabla{
+    grid-column: span 6;
+}
+.footer_flexbox{
+    display: flex;
+    justify-content: space-around; 
+    flex-direction: row;
+    line-height: 250%;
+}
+.container .tabla h2{
+    background-color: cadetblue; 
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder; 
+    font-size: 150%;
+    text-decoration: none;
+    border-color: cornflowerblue;
+    border-width: 160%; 
+    border-style: solid;
+    width: 53%; 
+    text-align: center;
+    margin-left: 23%;
+    transition: all 2s;
+}
+.container .tabla h2:hover {
+    width: 50%;
+    height: 300px;
+    border: #1e272e solid 10px;
+    background-image: url(https://www.imperiostravel.com/imagenes/portadas/latinos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container .tabla caption{
+    color: #1e272e;
+    font-size: 120%; 
+    font-weight: 600; 
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-bottom: 2%; 
+    margin-top: 2%;
+    text-align: center;
+
+}
+.container .tabla .asistencia{
+    color:#000000; 
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500; 
+    border: #1e272e;
+}
+.container .tabla tr{
+    line-height: 30px; 
+    border-color: darkblue; 
+    color: rgba(0, 0, 0, 0.849);
+    font-weight: 500;
+    font-size: 100%;
+    background-color: burlywood;
+}
+.container .tabla  tr td ol li{
+    list-style-type: none; 
+}
+.container footer{
+    grid-column: span 6;
+    color: #1e272e;
+    font-weight: 800;
+    background-image: linear-gradient(dodgerblue, #ddd);
+}
+.container div{
+    padding: 20px;
+}
+.content div{
+    
+    padding: 20px;
+    margin-top: 10px ;
+    color: #1e272e;
+    font-weight: 1000;
+}
+.content h3{
+    color: black; 
+    font-weight: 700;
+}
+.content p{
+    color: black;
+    font-weight: 400;
+}
+.container .content .flexbox{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.container .content .flexbox form{
+    width: 80%;
+    margin-left: 10%;
+    background-color: gainsboro;
+    border: #1e272e solid;
+}
+.container .content .flexbox aside{
+    width: 140%;
+}
+.container .content h2{
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 50%;
+    font-family: fantasy;
+    font-size: 200%;
+    font-weight: 900;
+    text-shadow: 2px 1px 10px #ddd;
+    animation-name: pelicula; 
+    animation-iteration-count: 1; 
+    animation-duration: 6s;
+    animation-timing-function: ease-in;
+}
+@keyframes pelicula{
+    from{
+        opacity: 00;
+        transform: translateX(10%);
+    }
+    to{
+        opacity: 100;
+    }
+} 
+
+/*javascript*/
+.mobile-container {
+    max-width: 480px;
+    margin-left: 5px;
+    height: 500px;   
+    background-color: #246477;
+    color: white;
+    border-radius: 30px;
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/872/906/514/light-movie-film-film-projector-wallpaper-preview.jpg);
+}
+  
+.topnav {
+    overflow: hidden;
+    background-color: dodgerblue;
+    background-size: cover;
+    position: relative;
+}
+  
+.topnav #myLinks {
+    display: none;
+}
+  
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+  
+.topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: #ddd;
+}
+.active {
+    background-color: dodgerblue;
+    color: #ddd;
+}
+/*aca termina lo de javascript*/
+footer img{
+    line-height: 400%;
+}
+
+.container .main form{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.hijos{
+    display: flex;
+    justify-content: stretch;
+    gap: 3%;
+}
+div label{
+    color: #1e272e;
+    font-weight: 900;
+}
+.container .propuestas{
+    grid-column: span 6;
+    color: rgb(35, 46, 6);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    font-weight: 1000;
+    text-align: center;
+    margin-top: 6%;
+    background-image: url(https://i0.wp.com/hipertextual.com/wp-content/uploads/2017/03/Captura-de-pantalla-2017-03-30-a-las-11.59.05.png?fit=1200%2C600&ssl=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.descubre .alojamiento{
+    transform: translate(-100%, -700%);
+}
+.descubre .excursiones{
+    transform: translate(-100%, -600%);
+}
+.descubre .autos{
+    transform: translate(-134%, -1000%);
+}
+.descubre .blog{
+    transform: translate(-110%, -1000%);
+}
+.descubre .blogs{
+    transform: translate(-110%, -870%);
+}
+.content .menu-viaje{
+    grid-column: span 2;
+}
+.titulo-paquete{
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-100%);
+    line-height: 200%;
+    text-align: center;
+    text-shadow: 2px 1px 10px #ddd;
+}
+.titulo-paquete h2{
+    text-align: center;
+    font-family: fantasy;
+    font-size: 200%;
+    font-weight: 1000;
+    color: #1e272e;
+}
+.viajes{
+    grid-column: span 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 300%;
+    transform: translate(25%, 0%);
+    text-align: center;
+}
+.viajes3{
+    grid-column: span 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 300%;
+    transform: translate(30%, 0%);
+    text-align: center;
+}
+.content .menu-test{
+    grid-column: span 3;
+}
+.titulo-test{
+    grid-column: span 2;
+    text-align: center;
+    transform: translateX(-100%);
+    line-height: 200%;
+    text-shadow: 2px 1px 10px #ddd;
+}
+.test{
+    grid-column: span 5;
+    background-color: #1e272e;
+    width: 50%;
+    transform: translate(80%, -30%);
+}
+.test label{
+    color: #ddd;
+}
+.test legend{
+    color: #ddd;
+}
+.noti{
+    grid-column: span 5;
+    transform: translate(48%, -400%);
+}
+.contactar{
+    grid-column: span 5;
+    background-color:grey;
+    width: 50%;
+    height: 105%;
+    transform: translate(80%, -30%);
+    line-height: 250%;
+}
+.contactar label{
+    color: #000000;
+    font-weight: 600;
+}
+.seguinos{
+    grid-column: span 5;
+    transform: translate(15%, -80%);
+    line-height: 300%;
+    border: #1e272e solid 2px;
+    width: 20%;
+    text-align: center;
+}
+.seguinos li{
+    list-style-type: none;
+}
+.viajes div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20%;
+}
+.viajes div img{
+    border: #1e272e solid 4px;
+    border-radius: 10%;
+}
+.viajes h3{
+    animation-name: h3; 
+    animation-iteration-count: 1; 
+    animation-duration: 6s;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+}
+.viajes3 div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20%;
+}
+.viajes3 div img{
+    border: #1e272e solid 4px;
+    border-radius: 10%;
+}
+.viajes3 h3{
+    animation-name: h3; 
+    animation-iteration-count: 1; 
+    animation-duration: 6s;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+}
+
+@keyframes h3{
+    0% {
+        opacity: 00;
+        transform: translateX(30%);
+    }
+    25%{
+    }
+    50%{
+    }
+    75%{
+    }
+    100%{
+        opacity: 100;
+    }
+}
+.viajes table{
+    background-color: darkgray;
+    border: #1e272e solid 4px;
+    width: 103%;
+    transform: translateX(20%);
+}
