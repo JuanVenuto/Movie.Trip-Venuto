@@ -1,0 +1,39 @@
+header {
+  background-image: url(https://telemedellin.tv/wp-content/uploads/2019/11/documentales.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  header .titulo {
+    padding: 20px 0;
+    text-align: center;
+    font-size: 2.9em;
+    list-style-type: none;
+    text-shadow: 2px 1px 10px #1e272e;
+    color: #ddd; }
+
+.containers .programa h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  font-size: 150%; }
+  .containers .programa h2 a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 80%; }
+
+.containers .tabla tr {
+  line-height: 30px;
+  border-color: darkblue;
+  color: rgba(0, 0, 0, 0.849);
+  font-weight: 500;
+  font-size: 100%;
+  background-color: #78caf0;
+  text-align: center; }
+  .containers .tabla tr td ol li {
+    list-style-type: none; }
+
+footer {
+  background-image: linear-gradient(dodgerblue, #ddd); }
+  footer .footer_flexbox {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    line-height: 250%; }
