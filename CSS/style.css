@@ -4,10 +4,6 @@
     text-decoration: none;
     list-style-type: none;
 }
-body{
-    background-image: linear-gradient(rgb(89, 157, 212), rgb(27, 125, 182));
-    font-family: 'Manjari', sans-serif;
-}
 
 .containers header input{
     width: 8%;
@@ -27,9 +23,6 @@ body{
     font-size: 180%;
     list-style-type: none;
     border: #1e272e solid;
-    background-image: url(https://img.freepik.com/vector-gratis/marco-neon-aire_52683-52636.jpg?size=626&ext=jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .containers .tabla .asistencia{
@@ -83,23 +76,9 @@ div label{
     font-size: 120%;
     text-align: center;
     margin-top: 6%;
-    background-image: url(https://i0.wp.com/hipertextual.com/wp-content/uploads/2017/03/Captura-de-pantalla-2017-03-30-a-las-11.59.05.png?fit=1200%2C600&ssl=1);
-    background-repeat: no-repeat;
-    background-size: cover;
-    
 }
-.titulo-paquete{
-    line-height: 200%;
-    text-align: center;
-    text-shadow: 2px 1px 10px #ddd;
-}
-.titulo-paquete h2{
-    text-align: center;
-    font-family: fantasy;
-    font-size: 200%;
-    font-weight: 1000;
-    color: #1e272e;
-}
+
+
 .viajes{
     text-align: center;
 }
@@ -107,33 +86,9 @@ div label{
     text-align: center;
 }
 
-.titulo-test{
-    text-align: center;
-}
-.seguinos{
-    line-height: 300%;
-    border: #1e272e solid 2px;
-    width: 20%;
-    text-align: center;
-}
-.seguinos li{
-    list-style-type: none;
-}
-.viajes div{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 20%;
-}
 .viajes div img{
     border: #1e272e solid 4px;
     border-radius: 10%;
-}
-.viajes3 div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 20%;
 }
 .viajes3 div img{
     border: #1e272e solid 4px;
@@ -146,19 +101,18 @@ div label{
     width: 103%;
     transform: translateX(20%);
 }
-.radio{
+
+.viajes div{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    transform: translateY(-70%);
+    justify-content: center;
+    gap: 20%;
+}
+.viajes3 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20%;
 }
 
-.flex2{
-    display: flex;
-    justify-content: space-around;
-}
-@media (max-width: 769px){
-    .vuelos{
-        width: 60%;
-    }
-}
+

@@ -1,14 +1,35 @@
+@media (max-width: 769px) {
+  .vuelos {
+    width: 60%; } }
+
+body {
+  font-family: 'Manjari', sans-serif; }
+
 header {
   background-image: url(https://telemedellin.tv/wp-content/uploads/2019/11/documentales.jpg);
   background-repeat: no-repeat;
   background-size: cover; }
-  header .titulo {
-    padding: 20px 0;
-    text-align: center;
-    font-size: 2.9em;
-    list-style-type: none;
-    text-shadow: 2px 1px 10px #1e272e;
-    color: #ddd; }
+
+.containers .programa h3 {
+  background-image: url(https://img.freepik.com/vector-gratis/marco-neon-aire_52683-52636.jpg?size=626&ext=jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.containers .propuestas {
+  background-image: url(https://i0.wp.com/hipertextual.com/wp-content/uploads/2017/03/Captura-de-pantalla-2017-03-30-a-las-11.59.05.png?fit=1200%2C600&ssl=1);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+body {
+  background-image: linear-gradient(#599dd4, #1b7db6); }
+
+header .titulo {
+  padding: 20px 0;
+  text-align: center;
+  font-size: 2.9em;
+  list-style-type: none;
+  text-shadow: 2px 1px 10px #1e272e;
+  color: #ddd; }
 
 .containers .programa h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -37,3 +58,84 @@ footer {
     justify-content: space-around;
     flex-direction: row;
     line-height: 250%; }
+
+.flex2 {
+  display: flex;
+  justify-content: space-around; }
+
+.radio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  transform: translateY(-70%); }
+
+.seguinos {
+  line-height: 300%;
+  border: #1e272e solid 2px;
+  width: 20%;
+  text-align: center; }
+  .seguinos li {
+    list-style-type: none; }
+
+.titulo-test, .titulo-paquete, .titulo-paquete h2 {
+  text-align: center; }
+
+.titulo-paquete {
+  line-height: 200%;
+  text-shadow: 2px 1px 10px #ddd; }
+
+.titulo-paquete h2 {
+  font-family: fantasy;
+  color: #1e272e; }
+
+.titulo-paquete h2 {
+  font-size: 200%;
+  font-weight: 1000; }
+
+.bucle:nth-child(1) {
+  background-color: #18639c;
+  color: black;
+  font-weight: 400; }
+
+.bucle:nth-child(2) {
+  background-color: #18639c;
+  color: black;
+  font-weight: 400; }
+
+.bucle:nth-child(3) {
+  background-color: #18639c;
+  color: black;
+  font-weight: 400; }
+
+.bucle:nth-child(4) {
+  background-color: #18639c;
+  color: black;
+  font-weight: 400; }
+
+.bucle:nth-child(5) {
+  background-color: #18639c;
+  color: black;
+  font-weight: 400; }
+
+.bucle:nth-child(6) {
+  background-color: #18639c;
+  color: black;
+  font-weight: 400; }
+
+.tramit--td1-icon {
+  background-color: #18639c;
+  color: #ddd;
+  border: 2px solid #1e272e;
+  padding: 6%; }
+
+.tramit--td2-icon {
+  background-color: #18639c;
+  color: #ddd;
+  border: 2px solid #1e272e;
+  padding: 6%; }
+
+.tramit--td3-icon {
+  background-color: #18639c;
+  color: #ddd;
+  border: 2px solid #1e272e;
+  padding: 6%; }
