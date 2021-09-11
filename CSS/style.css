@@ -99,7 +99,7 @@ div label{
     background-color: darkgray;
     border: #1e272e solid 4px;
     width: 103%;
-    transform: translateX(20%);
+    transform: translateX(20%); /*transform*/
 }
 
 .viajes div{
@@ -115,4 +115,42 @@ div label{
     gap: 20%;
 }
 
-
+.descu{
+    text-align: center;
+}
+.titulo-paquete h2{
+    animation-name: viaje; 
+    animation-iteration-count: 1;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    text-align: center;
+}
+@keyframes viaje{ /*animacion*/
+    from {
+        opacity: 00;
+        transform: translateX(20px);
+    }
+    to{
+        opacity: 100;
+    }
+}
+.table{
+    transition: all 2s; /*transicion*/
+}
+.table:hover{
+    color: #ddd;
+}
+.accordion-button{
+    background-image: radial-gradient(rgb(60, 125, 190), rgb(95, 147, 196));
+}
+.flex2{
+    background-color: cornflowerblue;
+}
+.accordion-item{
+    background-image: radial-gradient(rgb(90, 143, 197), rgb(143, 182, 218));
+}
+@media (max-width: 600px){
+    .table{
+        display: none;
+    }
+}

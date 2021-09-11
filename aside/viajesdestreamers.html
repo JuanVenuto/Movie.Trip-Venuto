@@ -23,6 +23,9 @@
                     <li style="font-weight: 700; color: #ddd;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle-fill" viewBox="0 0 16 16">
                          <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
                        </svg> INGRESAR</li>  
+                       <button type="button" class="btn btn-primary" style="margin-top: 1%;">
+                         <a href="noticiasdelsectorturístico.html" style="color: #ddd;">News</a> <span class="badge bg-secondary">4</span>
+                       </button>
                </div>
                <nav class="navbar navbar-expand-lg navbar-light bg-info">
                     <div class="container-fluid">
@@ -205,15 +208,43 @@
                          <h2>Viajes de Streamers</h2>
                     </div>
                </section>
-               <aside class="viajes" style="margin: 5%;">
-                    <h3>Stremea con Movie.Trip. Tenemos los mejores viajes para que grabes y continúes con tus streams. </h3>
-                    <h3>¡ADEMAS PROMOCIONAMOS TUS VIDEOS POR NUESTRAS REDES SOCIALES!</h3>
-                    <h3>Estos son nuestros mejores viajes para stremear:</h3>
+               <aside>
+                    <h3 style="text-align: center; margin: 5%;">Stremea con Movie.Trip. Tenemos los mejores viajes para que grabes y continúes con tus streams. </h3>
+                    <h3 style="text-align: center; margin: 5%;">¡ADEMAS PROMOCIONAMOS TUS VIDEOS POR NUESTRAS REDES SOCIALES!</h3>
+                    <h3 style="text-align: center; margin: 5%;">Estos son nuestros mejores viajes para stremear:</h3>
                     <div>
-                         <img src="../multimedia/R1.png"/>
-                         <img src="../multimedia/R2.png"/>
-                         <img src="../multimedia/R3.png"/>
-                         <img src="../multimedia/R4.png"/>
+                         <ul>
+                              <div class="card-group container" style="width: 60%; gap: 10%;">
+                                   <div class="card" style="background-color: rgb(132, 168, 235);">
+                                     <img src="../multimedia/R1.png" class="card-img-top" alt="...">
+                                     <div class="card-body">
+                                       <h5 class="card-title" style="text-align: center;">PARÍS NOCTURNA</h5>
+                                       <p class="card-text">¡Stremea el mejor tour y recorrido por París de noche!</p>
+                                       <p class="card-text"><small class="text-muted">¡NO TE PIERDAS ESTA OPORTUNIDAD!</small></p>
+                                       <a href="#" class="btn btn-primary">Más información</a>
+                                     </div>
+                                   </div>
+                                   <div class="card" style="background-color: rgb(132, 168, 235);">
+                                     <img src="../multimedia/R2.png" class="card-img-top" alt="...">
+                                     <div class="card-body">
+                                       <h5 class="card-title" style="text-align: center;">MAR DEL PLATA JÓVEN</h5>
+                                       <p class="card-text">¡Diversión y Mar!. Conocé la ciudad del verano en un clima fiestero</p>
+                                       <p class="card-text"><small class="text-muted">¡NO TE PIERDAS ESTA OPORTUNIDAD!</small></p>
+                                       <a href="#" class="btn btn-primary">Más información</a>
+                                     </div>
+                                   </div>
+                                   <div class="card" style="background-color: rgb(132, 168, 235);">
+                                        <img src="../multimedia/R4.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title" style="text-align: center;">CANCÚN DE FIESTA</h5>
+                                          <p class="card-text">¡COCO BONGO!. Disfrutá las mejores noches en Cancún.</p>
+                                          <p class="card-text"><small class="text-muted">¡NO TE PIERDAS ESTA OPORTUNIDAD!</small></p>
+                                          <a href="#" class="btn btn-primary">Más información</a>
+                                        </div>
+                                      </div>
+                                   </div>
+                              </div>
+                         </ul>
                     </div>
                </aside>
                <aside class="tabla">
@@ -222,7 +253,9 @@
                               <h2 style="text-align: center; margin-top: 3%; margin-bottom: 3%;">
                                    20% DE DESCUENTO RESERVANDO HOY EN EL PAQUETE DE PELÍCULA: ITALIA + FRANCIA...
                               </h2>
-                              <p style="text-align: center; font-weight: 700;">Para saber más sobre esta increíble promoción, haz click <span><a href="#">aquí.</a></span></p>
+                              <div class="alert alert-primary container" role="alert" style="text-align: center;">
+                                   Para saber más sobre esta increíble promoción, <a href="#" class="alert-link">haz click aquí</a>
+                                 </div>
                               <thead>
                                 <tr>
                                   <th scope="col">Nombre del Paquete Turístico</th>
