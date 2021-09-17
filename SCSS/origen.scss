@@ -1,5 +1,5 @@
 @import "responsive";
-@import "tipografia";
+@import "body";
 @import "img";
 
 $colores: #ddd; 
@@ -21,15 +21,6 @@ header{
         color: $colores;
     }
 }
-.containers{
-    .programa{
-        h2{
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-weight: 900;
-            font-size: $ancho + 50%;
-        }
-    }
-}
 .containers .tabla{
     tr{
         line-height: 30px; 
@@ -42,6 +33,32 @@ header{
         td ol li{
             list-style-type: none; 
         }
+    }
+    .asistencia{
+        color:#000000; 
+        text-align: $centro; 
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: $weight; 
+        border: #b3bcc4;
+    }
+}
+.containers{
+    header input{
+        width: $ancho - 92%;
+    }
+    div{
+        padding: 20px;
+    }
+    .contents .flexbox form{
+        label{
+            color: rgb(25, 14, 131);
+        }
+        legend{
+            font-size: $ancho + 10%;
+        }
+    }
+    .contents .flexbox aside{
+        width: $ancho + 40%;
     }
 }
 footer{
@@ -59,7 +76,12 @@ footer{
         justify-content: space-around;
     }
 }
-
+.flex3{
+    @if 1 + 1 == 2 {
+        display: flex;
+        justify-content: space-around;
+    }
+}
 .radio{
     @if 3 > 2 {
         display: flex;
@@ -81,15 +103,31 @@ footer{
 .titulo-test{
     text-align: $centro;
 }
+.descu{
+    @extend .titulo-test;
+}
 .titulo-paquete{
     @extend .titulo-test;
     line-height: $ancho + 100%;
     text-shadow: 2px 1px 10px $colores;
 }
+@keyframes viaje{ 
+    from {
+        opacity: 00;
+        transform: translateX(20px);
+    }
+    to{
+        opacity: 100;
+    }
+}
 .titulo-paquete h2{
     @extend .titulo-test;
     font-family: fantasy;
     color: #1e272e;
+    animation-name: viaje; 
+    animation-iteration-count: 1;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
 }
 @mixin peso($ancho, $weight) {
     font-size: $ancho;
@@ -114,4 +152,60 @@ footer{
         padding: 6%;
     }
 }
-
+.viajes{
+    text-align: $centro;
+    table{
+        background-color: darkgray;
+        border: #1e272e solid 4px;
+        width: $ancho + 3%;
+        transform: translateX($ancho - 80%);
+    }
+    div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: $ancho - 80%;
+    }
+}
+.viajes3{
+    text-align: $centro;
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: $ancho - 80%;
+    }
+}
+.table{
+    transition: all 2s;
+    :hover{
+        color: $colores;
+    }
+}
+.hijos{
+    display: flex;
+    justify-content: space-between;
+    gap: $ancho - 97%;
+}
+div label{
+    color: #1e272e;
+    font-weight: $weight;
+}
+.containers .propuestas{
+    grid-column: span 6;
+    color: rgb(35, 46, 6);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: $ancho + 20%;
+    text-align: $centro;
+    margin-top: $ancho - 94%;
+}
+.nav-item:hover{
+    border-left: rgb(25, 14, 131) solid 2px;
+    border-right: rgb(25, 14, 131) solid 2px;
+}
+.forma{
+    border-left: rgb(25, 14, 131) 10px solid;
+}
+.offcanvas-header{
+    background-color: rgb(27, 125, 182);
+}

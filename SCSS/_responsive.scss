@@ -3,3 +3,19 @@
         width: 60%;
     }
 }
+@media (max-width: 600px){
+    .table{
+        display: none;
+    }
+}
+@media (max-width:600px){
+    .flex3{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 900px){
+    .seguinos{
+        display: none;
+    }
+}
